@@ -1,0 +1,25 @@
+{
+    "name": "string-display-width",
+    "version": "1.0.0",
+    "description": "approximate string's display without actual rendering",
+    "main": "build",
+    "repository": "git@github.com:kdong007/string-display-width.git",
+    "keywords": [
+        "string",
+        "display",
+        "width"
+    ],
+    "homepage": "https://github.com/kdong007/string-display-width",
+    "author": "Mars Dong <kdong007@hotmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "babel src -d build",
+        "clean": "rm -rf build"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-eslint": "^10.0.1",
+        "babel-preset-env": "^1.7.0",
+        "eslint": "^5.6.1"
+    }
+}
