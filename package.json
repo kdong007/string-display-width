@@ -1,6 +1,6 @@
 {
     "name": "string-display-width",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "approximate string's display without actual rendering",
     "main": "build",
     "repository": "git@github.com:kdong007/string-display-width.git",
